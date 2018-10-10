@@ -2813,7 +2813,7 @@ bool venc_dev::venc_empty_buf(void *buffer, void *pmem_data_buf, unsigned index,
 			fmt.fmt.pix_mp.height = m_sVenc_cfg.input_height;
 			fmt.fmt.pix_mp.width = m_sVenc_cfg.input_width;
 			if (ioctl(m_nDriver_fd, VIDIOC_S_FMT, &fmt)) {
-				DEBUG_PRINT_ERROR("Failed setting color format in in etb %x", m_sVenc_cfg.inputformat);
+				DEBUG_PRINT_ERROR("Failed setting color format in in etb %lx", m_sVenc_cfg.inputformat);
 				return false;
 			}
 		}
