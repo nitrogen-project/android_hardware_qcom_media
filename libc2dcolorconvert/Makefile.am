@@ -4,7 +4,6 @@ AM_CFLAGS += -Wstrict-prototypes
 AM_CFLAGS += -Wno-trigraphs
 AM_CFLAGS += -g -O3
 AM_CFLAGS += "-include stdint.h"
-AM_CFLAGS += "-std=c++11"
 
 
 AM_CPPFLAGS = $(CPPFLAGS)

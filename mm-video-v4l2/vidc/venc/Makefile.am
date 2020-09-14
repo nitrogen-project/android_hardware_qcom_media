@@ -30,7 +30,6 @@ AM_CPPFLAGS += -DUSE_ION
 #AM_CPPFLAGS += "-include stdint.h"
 AM_CPPFLAGS += "-Dstrlcpy=g_strlcpy"
 AM_CPPFLAGS += "-Dstrlcat=g_strlcat"
-AM_CPPFLAGS += "-std=c++11"
 AM_CPPFLAGS += -Wno-undef
 AM_CPPFLAGS += -Wno-multichar
 AM_CPPFLAGS += -g -O3

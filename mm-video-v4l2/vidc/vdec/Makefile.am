@@ -33,7 +33,6 @@ AM_CPPFLAGS += -DMAX_RES_1080P_EBI
 #AM_CPPFLAGS += "-include stdint.h"
 AM_CPPFLAGS += "-Dstrlcpy=g_strlcpy"
 AM_CPPFLAGS += "-Dstrlcat=g_strlcat"
-AM_CPPFLAGS += "-std=c++11"
 AM_CPPFLAGS += "-DHAVE_ANDROID_OS"
 AM_CPPFLAGS += -DSYS_IOCTL
 AM_CPPFLAGS += -Wno-multichar
